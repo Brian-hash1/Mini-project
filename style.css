@@ -1,0 +1,121 @@
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Slab", 'serif';
+    }
+    header {
+        background: rgb(131,58,180);
+        background: linear-gradient(
+            90deg,
+            rgba(131,58,180,1)0%,
+            rgba(253,29,29,1)50%,
+            rgba(252,176,69,1)100%
+        );
+        padding: 20px;
+    }
+    .headerContainer {
+        display: flex;
+    }
+    .imgProfile {
+        width: 200px;
+        height: 200px;
+        border: 5px solid white;
+        border-radius: 100%;
+        transition: all;
+        transition-duration: 1s;
+    }
+    .imgProfile:hover {
+        margin-top: -10px;
+        }
+    .holderImgProfile {
+        flex: 1;
+        text-align: center;
+    }
+    .holderDetailProfile {
+        flex: 2;
+    }
+    .nameProfile {
+        font-size: 48px;
+        color: white;
+        font-weight: 600;
+    }
+    .titleProfile {
+        color: white;
+        font-size: 36px;
+    }
+    .button {
+        border: none;
+        padding: 10px 20px;
+        margin: 10px 10px 0 0;
+        font-family: "Roboto Slab", serif;
+        border-radius: 40px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .button.download {
+        background-color: aliceblue;
+        cursor: pointer;
+    }
+    .button.hire {
+        background-color: rgb(16, 214, 167);
+        color: white;
+        cursor: pointer;
+    }
+    .button:hover {
+        transform: scale(1.1);
+    }
+    .subContent {
+        font-size: 18px;
+        font-weight: 500;
+        color: rgb(53, 53, 53);
+    }
+    .contentHolder {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .barContainer {
+        width: 100%;
+        height: 20px;
+        background-color: rgb(235,233,233);
+        border-radius: 20px;
+        position: relative;
+    }
+    .barFilling {
+        height: 20px;
+        background-color: aqua;
+        border-radius: 20px;
+    }
+    .green {
+        background-color: rgb(70, 216, 47); 
+        width: 60%;
+    }
+    .purple {
+        background-color: rgb(147, 66, 223);
+        width: 80%;
+    }
+    .yellow {
+        background-color: rgb(237, 178, 69);
+        width: 70%;
+    }
+    ul.workEx li {
+        font-size: 20px;
+        padding: 30px
+    }
+    ul.workEx li:nth-child(odd){
+        background-color: rgb(248, 248, 248);
+    }
+    footer {
+        background-color: rgb(134, 131, 131);
+        text-align: center;
+    }
+    .footerHolder {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 30px;
+    }
+    .footerName {
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+    }
